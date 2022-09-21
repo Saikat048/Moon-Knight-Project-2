@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Find Your Phone</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light py-4">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Find Your Phone</a>
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div>
+        <h1 class="text-center mt-5 fw-bold">Find your phone that you want.....</h1>
+        <p class="text-center fw-bold mt-5">You will get iPhone, Samsung Galaxy, Oppo and Huawei products from us.</p>
+    </div>
+
+    <!------------------------------------------
+   ------------ Input and Search  -------------
+   ------------------------------------------->
+
+    <div class="input-group mb-3 w-50 mx-auto ">
+        <input id="search-input" type="text" class="form-control" placeholder="Search Phone"
+            aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="loadData()" class="btn btn-info" type="button" id="search-button">Search</button>
+    </div>
+
+    <!------------------------------------------
+   ------------------ Error  ------------------
+   ------------------------------------------->
+    <h2 class="text-center text-danger fw-bold" id="error"></h2>
+
+
+
+
+
+    <!------------------------------------------
+   -------------- Phone Detail ----------------
+   ------------------------------------------->
+    <div class=" d-flex justify-content-center mt-5" id="detail-container"></div>
+
+
+    <!------------------------------------------
+   --------------- Phone Show  ----------------
+   ------------------------------------------->
+    <section class="container">
+        <div id="div-container" class="row row-cols-1 row-cols-md-3 g-4">
+        </div>
+    </section>
+    <script src="JS/app.js"></script>
+</body>
+
+</html>

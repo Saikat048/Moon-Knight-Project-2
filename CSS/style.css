@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background: #d7f3f1;
+}
+
+h1 {
+     font-size: 50px;
+ }
+  
+
+ .navbar-brand {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar-nav li a {
+    font-size: 20px; 
+}
