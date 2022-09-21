@@ -16,3 +16,49 @@ h1 {
 .navbar-nav li a {
     font-size: 20px; 
 }
+
+
+
+
+footer {
+    background: #0B0827;
+    padding: 40px 0 50px; 
+    font-family: 'Lobster Two', cursive;        
+}
+
+
+.footer-section {
+    text-align: center;
+    color: #FFFFFF;
+} 
+.footer-section a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.footer-section a:hover {
+    text-decoration: underline;
+}
+#reserved {
+    color: #83ACEC;
+    margin-top: 0; 
+}
+
+.midea-icon {
+    margin-top: 25px;
+}
+.midea-icon a { 
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #c3b2b217;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 5px; 
+}
+.midea-icon a i {
+    transition: .2s linear;
+}
+.midea-icon a:hover i {
+    transform: scale(1.2);
+    color: #E02C6D;
+}
